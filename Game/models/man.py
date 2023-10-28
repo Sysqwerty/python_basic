@@ -1,11 +1,6 @@
 from ..constants import BODY_PARTS
 
 
-
-
-
-
-
 class Man:
     def __init__(self):
         self.__body = list()
@@ -16,11 +11,6 @@ class Man:
 
     def is_game_over(self):
         return len(self.__body) == 6
-
-
-
-
-
 
 
 man = Man()

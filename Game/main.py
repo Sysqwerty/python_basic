@@ -1,8 +1,5 @@
-from models.man import Man
-
-
 import random
-
+from models.man import Man
 from models.word import Word
 
 
@@ -17,13 +14,12 @@ def main():
             pass
         else:
             man.add_body_part()
-        
+
     if word.is_word_guessed():
         print("You won")
     else:
         print("You lose")
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
